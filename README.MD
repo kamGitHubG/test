@@ -51,5 +51,5 @@ OR
 `java -jar target/Nominet-0.0.1-SNAPSHOT.jar`
   
  - Notes are saved in database using JPA framework.
- - Currently in memory database h2 is being used.  While the application is running, one can connect to database by using following url - `_http://localhost:8080/h2-console` .  The default JDBC URL is `jdbc:h2:mem:nominetdb` , user name is `sa` and there is no password, i.e. it is blank.
+ - Currently in memory database h2 is being used.  While the application is running, one can connect to database by using following url - `_http://localhost:8080/h2-console` .  The default JDBC URL is `jdbc:h2:mem:nominetdb` , user name is `sa` and there is no password, i.e. it is a blank password.
  - Functional test cases have been implemented using Spring Boot Test and Cucumber framework.
